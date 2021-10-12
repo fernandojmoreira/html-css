@@ -1,0 +1,85 @@
+- HTML -
+
+<h1> Titulo </h1>
+<p> Parágrafo </p>
+
+<img src=foto.png" alt="Exemplo de foto">
+
+- CSS -
+
+h1 {
+    font-family:Arial;
+    font-size: 20pt;
+    color: blue;
+   }
+
+- ESTRUTURA BÁSICA DE DOCUMENTO HTML -
+
+<!DOCTYPE html>
+<html lang"pt-br">
+|  <head>
+|  |   <meta charset=UTF-8">
+|  |   <meta name="viewport"
+|  |   content="width=device-width,
+|  |   initial-scale=1.0"
+|  |   <title>Documento</title>
+|  </head>
+|  <body>
+|  |   <h1>Salve 420</h1>
+|  |
+|  |
+|  |
+|  </body>
+</html>
+
+- CSS -
+
+Fontes: dar preferencia a fontes não serifada para textos mais longos (em telas)
+
+Serifadas -
+Não serifadas - sans-serif
+Monoespaçadas
+Escrita a mão - Handwrite
+Display
+
+- MODELO DE CAIXAS -
+
+height - altura
+width - largura
+
+border - uma linha que circunda o conteudo
+padding - preenchimento (espaço interno)
+margin - margem (espaço externo)
+|	outline - traçado, contorno
+
+tipos de caixa
+
+box-level - sempre inicia em uma linha nova
+|	ocupa a largura 100% da viewport
+|	quebra linha
+ex. 	<div>
+	<h1> - <h6>
+	<p>
+	<main>
+	<header>
+	<nav>
+	<article>
+	<aside>
+	<footer>
+	<form>
+	<video>
+
+inline-level - sempre inicia ao lado, com a caixa adaptada ao tamanho do
+|	elemento
+|	não quebra linha
+ex.	<span>
+	<a>
+	<code>
+	<small>
+	<strong>
+	<em>
+	<sup> - <sub>
+	<label>
+	<button>
+	<input>
+	<select>
